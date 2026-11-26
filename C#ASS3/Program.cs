@@ -138,10 +138,10 @@
              price to 25.5 if title is "Clean Code", otherwise returns false and sets price to 0. Call it
              and print the price if found   
             */
-            string book = "OOP";
-            bool flag = TryGetPrice(book, out double price);
-            Console.WriteLine(flag);
-            Console.WriteLine(price);
+            //string book = "OOP";
+            //bool flag = TryGetPrice(book, out double price);
+            //Console.WriteLine(flag);
+            //Console.WriteLine(price);
 
 
             #endregion
