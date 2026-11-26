@@ -72,9 +72,9 @@
              
             */
 
-            int pages = 400;
-            AddBonusPages(pages);
-            Console.WriteLine(pages);
+            //int pages = 400;
+            //AddBonusPages(pages);
+            //Console.WriteLine(pages);
             // excpected pages=400
             // becuase this is value type argument and we pass it by value so method took a copy from it not value its self
 
