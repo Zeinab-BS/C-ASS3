@@ -88,9 +88,9 @@
              
             */
 
-            double[] prices = { 25.2, 40.4 };
-            ApplyDiscount(prices);
-            Console.WriteLine(prices[0]);
+            //double[] prices = { 25.2, 40.4 };
+            //ApplyDiscount(prices);
+            //Console.WriteLine(prices[0]);
             //expected prices[0]=20.2
             // becuase this is refernce type argument and we pass it by value so method took a copy of address of prices so they 
             // both now refer to the same array im memory and any modification affect on the original array 
