@@ -61,6 +61,30 @@
 
 
             #endregion
+
+
+            #region Question5
+
+            /*
+             
+             Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable
+             int pages = 400; and print pages afterward. What do you expect to see, and why?
+             
+            */
+
+            int pages = 400;
+            AddBonusPages(pages);
+            Console.WriteLine(pages);
+            // excpected pages=400
+            // becuase this is value type argument and we pass it by value so method took a copy from it not value its self
+
+            #endregion
+
+
+
+
+
+
         }
 
         #region Question3Function
@@ -80,6 +104,17 @@
         //}
 
         #endregion
+
+        #region Question5Function
+
+        //static void AddBonusPages(int pages)
+        //{
+        //    pages += 50;
+        //}
+
+        #endregion
+
+
 
     }
 }
