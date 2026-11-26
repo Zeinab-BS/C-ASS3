@@ -125,9 +125,9 @@
              new array { 10.0, 12.5, 15.0 }. Call it with your prices array and print prices.Length
              afterward.
             */
-            double[] prices = { 40.2, 20.4 };
-            ReplaceArray(ref prices);
-            Console.WriteLine(prices.Length);//3
+            //double[] prices = { 40.2, 20.4 };
+            //ReplaceArray(ref prices);
+            //Console.WriteLine(prices.Length);//3
             #endregion
 
 
