@@ -147,6 +147,19 @@
             #endregion
 
 
+            #region Question10
+            /*
+             Write a method PrintBookInfo(string title, int pages = 300) where pages is optional. Call
+             it once with only a title, and once passing both a title and pages.
+             
+            */
+
+            PrintBookInfo("DataBase");
+            PrintBookInfo("OOP",500);
+
+
+            #endregion
+
         }
 
         #region Question3Function
@@ -211,21 +224,32 @@
         #endregion
 
         #region Question9Function
-       //static bool TryGetPrice(string title,out double price )
-       // {
-       //     if(title== "Clean Code")
-       //     {
-       //         price = 25.5;
-       //         return true;
-       //     }
+        //static bool TryGetPrice(string title,out double price )
+        // {
+        //     if(title== "Clean Code")
+        //     {
+        //         price = 25.5;
+        //         return true;
+        //     }
 
-       //     else
-       //     {
-       //         price = 0;
-       //         return false;
-       //     }
+        //     else
+        //     {
+        //         price = 0;
+        //         return false;
+        //     }
 
-       // }
+        // }
+
+        #endregion
+
+        #region Question10Function
+
+        //static void  PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine($"BookTilte: {title}\nPages: {pages}");
+        //}
+
+
 
         #endregion
 
