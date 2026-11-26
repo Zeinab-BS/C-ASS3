@@ -80,6 +80,25 @@
 
             #endregion
 
+            #region Question6
+            /*
+             Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it
+             with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward. What do you expect to
+             see, and why?
+             
+            */
+
+            double[] prices = { 25.2, 40.4 };
+            ApplyDiscount(prices);
+            Console.WriteLine(prices[0]);
+            //expected prices[0]=20.2
+            // becuase this is refernce type argument and we pass it by value so method took a copy of address of prices so they 
+            // both now refer to the same array im memory and any modification affect on the original array 
+
+
+            #endregion
+
+
 
 
 
@@ -113,6 +132,17 @@
         //}
 
         #endregion
+
+        #region Question6Function
+
+        //static void  ApplyDiscount(double[] prices)
+        //{
+        //    prices[0] -= 5;
+        //}
+
+
+        #endregion
+
 
 
 
