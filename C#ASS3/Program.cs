@@ -100,7 +100,22 @@
 
 
 
+            #region Question7
+            /*
+             Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref.
+             Call it and print pages afterward. How is the result different from question 5?
+             
+            */
 
+            int pages = 400;
+            AddBonusPages(ref pages);
+            Console.WriteLine(pages);
+            // expected :450
+            // this is value type and we pass it by refernce that means method can  access original variable not a copy of it 
+            // so any changes will affect on it 
+
+
+            #endregion
 
 
 
@@ -144,7 +159,16 @@
         #endregion
 
 
+        #region Question7Function
 
+
+        //static void AddBonusPages(ref int pages)
+        //{
+        //    pages += 50;
+        //}
+
+
+        #endregion
 
     }
 }
